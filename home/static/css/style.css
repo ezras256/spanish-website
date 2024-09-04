@@ -80,15 +80,38 @@
     width: 20vw;
     aspect-ratio: 1;
     background-color: #cacaca;
+    display: flex;
     border-radius: 50%;
     transform: translateY(4vh);
     animation: content-intro 1s cubic-bezier(.72,.06,.32,.99) forwards; 
     animation-delay: calc((var(--id) * 0.1s) + 1.2s);
     transition: all 0.2s ease;
+    overflow: hidden;
+    z-index: 9;
 }
 
 .content-sphere:hover {
     scale: 1.1;
+}
+
+.content-text {
+    position: absolute; 
+    width: 100%;
+    height: 50%;
+    left: 0px;  
+    top: 0px;
+    text-align: center;
+    transform: translateY(-50%);
+    border-top: solid 0.5vh #ffffff;
+}
+
+.content-image {
+    position: absolute; 
+    width: 100%;
+    height: 50%;
+    left: 0px; 
+    top: 50%;
+    background-size: cover;
 }
 
 .drop-shadow {

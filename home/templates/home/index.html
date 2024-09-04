@@ -3,6 +3,7 @@
 <head>
     <title>GUATEMALA RESEARCH PROJECT</title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="icon" href="{% static 'images/favicon.png' %}">
 </head>
 
 <html>
@@ -14,13 +15,28 @@
         </div>
         <div id="content">
             <div class="content-line drop-shadow" id="line1">
-                <div class="content-sphere" style="--id: 0; "></div>
-                <div class="content-sphere" style="--id: 2; "></div>
-                <div class="content-sphere" style="--id: 4; "></div>
+                <div class="content-sphere" style="--id: 0; ">
+                    <p class="content-text">CULTURE</p>
+                    <div class="content-image" style="background-image: url({% static 'images/content/child.jpg' %});"></div>
+                </div>
+                <div class="content-sphere" style="--id: 2; ">
+                    <div class="content-text"></div>
+                    <div class="content-image" style="background-image: url({% static 'images/content/lake.jpg' %});"></div>
+                </div>
+                <div class="content-sphere" style="--id: 4; ">
+                    <p class="content-text"></p>
+                    <div class="content-image" style="background-image: url({% static 'images/content/man.jpg' %});"></div>
+                </div>
             </div>
             <div class="content-line drop-shadow" id="line2">
-                <div class="content-sphere" style="--id: 1; "></div>
-                <div class="content-sphere" style="--id: 3; "></div>
+                <div class="content-sphere" style="--id: 1; ">
+                    <p class="content-text"></p>
+                    <div class="content-image" style="background-image: url({% static 'images/content/market.jpg' %});"></div>
+                </div>
+                <div class="content-sphere" style="--id: 3; ">
+                    <p class="content-text"></p>
+                    <div class="content-image" style="background-image: url({% static 'images/content/temple.jpg' %});"></div>
+                </div>
             </div>
         </div>
     </body>
