@@ -111,6 +111,14 @@ li {
     scale: 0;
 }
 
+#p2-spanish {
+    scale: 1;
+}
+
+#p1-spanish {
+    scale: 1;
+}
+
 .inter {
     font-family: "Inter", system-ui;
     font-optical-sizing: auto;
