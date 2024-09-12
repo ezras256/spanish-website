@@ -15,7 +15,7 @@
 </head>
 
 <html>
-    <body>
+    <body onload="setLanguage();">
         <div id="bg"> 
             <div id="bg-stripes">
                 <div id="str1" class="drop-shadow"></div>
@@ -26,6 +26,7 @@
             <a href="/"><p id="title-text-english">GUATEMALA RESEARCH PROJECT</p></a>
             <a href="/"><p id="title-text">GUATEMALA PROYECTO DE INVESTIGACIÓN</p></a>
             <div id="title-border"></div>
+            <button id="language-swap" onclick="j();"></button>
         </div>
         <div id="content">
             <div id="header" class="drop-shadow content-item oswald" style="--id: 0;">F A M I L I A S</div>
@@ -38,6 +39,7 @@
                             <li>La gente saluda a todos (incluso a desconocidos).</li>
                             <li>Normalmente solo se casan con personas de su propio pueblo.</li>
                             <li>La gente depende de la comunidad para ayudarse mutuamente.</li>
+                            <ul><li>Comunidades son construido alrededor la familia.</li></ul>
                         </ul>
 
                         <ul id="p1-english" class="inter">
@@ -45,6 +47,7 @@
                             <li>People greet everyone (even strangers)</li>
                             <li>They typically only marry people from inside their village</li>
                             <li>People rely on community to help each other</li>
+                            <ul><li>Communities are built around family.</li></ul>
                         </ul>
                     </p>
                 </div>
@@ -68,7 +71,7 @@
                     </p>
                 </div>
                 <div id="image2" class="drop-shadow content-item" style="--id: 4;"></div>
-                <div id="video" class="drop-shadow content-item" style="--id: 5;"><iframe width="560" height="315" src="https://www.youtube.com/embed/V-isuWCXlbk?si=0rL9mG_y1ryyLAxm&amp;start=611&end=652" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div id="video" class="drop-shadow content-item" style="--id: 5;"><iframe src="https://www.youtube.com/embed/V-isuWCXlbk?si=0rL9mG_y1ryyLAxm&amp;start=611&end=652" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
             </div>
         </div>
     </body>
